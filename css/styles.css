@@ -1,0 +1,55 @@
+/*styles.css*/
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e88686;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #b25f5f;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #ffe146;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+select, input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+button {
+    background-color: #66b240;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3d8c41;
+}
+
+#orderSummary {
+    margin-top: 20px;
+    color: #ffe146;
+    text-decoration-line: underline;
+}

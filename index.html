@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 3 | Pizza Order | COMP1073 Client-Side JavaScript</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="js/scripts.js" defer></script>
+</head>
+
+<body>
+<div>
+    <p id="myStudentInfo"></p>
+</div>
+<div>
+    <img src="img/PizzaPic.png" alt="PizzaPic">
+</div>
+
+<div class="container">
+    <h2>Pizza Order Form</h2>
+    <label for="pizzaSize">Select Pizza Size:</label>
+    <select id="pizzaSize" name="pizzaSize">
+        <option value="small">Small</option>
+        <option value="medium">Medium</option>
+        <option value="large">Large</option>
+        <option value="party">Party Size</option>
+    </select>
+
+    <label for="crustType">Select Crust Type:</label>
+    <select id="crustType" name="crustType">
+        <option value="thin">Thin Crust</option>
+        <option value="thick">Thick Crust</option>
+        <option value="cheese">Cheese Filled Crust</option>
+    </select>
+
+    <label for="sauceType">Select Sauce Type:</label>
+    <select id="sauceType" name="sauceType">
+        <option value="tomato">Tomato Sauce</option>
+        <option value="pesto">Pesto Sauce</option>
+        <option value="alfredo">Alfredo Sauce</option>
+    </select>
+
+    <label for="doughType">Select Dough Type:</label>
+    <select id="doughType" name="doughType">
+        <option value="regular">Regular Dough</option>
+        <option value="whole-grain">Whole Grain Dough</option>
+        <option value="multi-grain">Multi Grain Dough</option>
+    </select>
+
+    <label for="toppings">Select Toppings:</label>
+    <label>
+        <input type="checkbox" id="pepperoni" name="topping" value="pepperoni"> Pepperoni
+    </label>
+
+    <label>
+        <input type="checkbox" id="mushrooms" name="topping" value="mushrooms"> Mushrooms
+    </label>
+
+    <label>
+        <input type="checkbox" id="olives" name="topping" value="olives"> Olives
+    </label>
+
+    <label>
+        <input type="checkbox" id="pineapple" name="topping" value="pineapple"> Pineapple
+    </label>
+
+    <label>
+        <input type="checkbox" id="chicken" name="topping" value="chicken"> Chicken
+    </label>
+
+    <label>
+        <input type="checkbox" id="spinach" name="topping" value="spinach"> Spinach
+    </label>
+
+    <button class="custColor" onclick="createPizza()">Add to Cart!</button>
+    <p id="orderSummary"></p>
+</div>
+</body>
+</html>
